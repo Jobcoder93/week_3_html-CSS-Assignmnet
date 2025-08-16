@@ -1,0 +1,67 @@
+body{
+    background-color:rgb(185, 204, 145)
+}
+h1 {
+  color: #3ee8ee;                          /* Dark gray (softer than pure black) */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;                   /* Centered heading */
+  font-size: 2.5rem;                    /* Bigger size */
+  font-weight: 700;                     /* Bold for emphasis */
+  letter-spacing: 2px;                  /* Space between letters */
+  margin: 30px 0;                       /* Space above and below */
+  padding: 15px;                        /* Inner spacing */
+  background: linear-gradient(to right, #4facfe, #00f2fe); /* Gradient background */
+  background-clip: text;        /* Clip gradient into text */
+  -webkit-text-fill-color: transparent; /* Make text itself show gradient */
+  text-transform: uppercase;            /* Make text all caps */
+}
+/* Default link style */
+a {
+  color: #0f3517;          /* Dark green */
+  text-decoration: none;   /* Remove underline */
+  padding: 10px 15px;      /* Spacing inside */
+  margin: 5px;             /* Space between links */
+  display: inline-block;   /* Makes padding & margin work nicely */
+  font-size: 18px;         /* Readable text size */
+  font-weight: 500;        /* Medium bold */
+  transition: all 0.3s ease; /* Smooth hover effect */
+}
+
+/* Hover state */
+a:hover {
+  color: #ffffff;               /* White text */
+  background-color: #28a745;    /* Bright green background */
+  border-radius: 5px;           /* Rounded edges */
+  text-decoration: underline;   /* Show underline on hover */
+}
+
+/* Visited link */
+a:visited {
+  color: #6c757d; /* Muted grayish green after visited */
+}
+
+/* Active (when clicked) */
+a:active {
+  color: #ffffff;
+  background-color: #155724; /* Darker green on click */
+}
+
+
+.info{
+   color:rgb(22, 139, 22);
+   font-family: Georgia, 'Times New Roman', Times, serif; 
+}
+#hh {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.5rem;   /* Slightly bigger text */
+  color: #333;         /* Dark gray text */
+  padding: 40px 0 50px 30px;     /* Small vertical spacing */
+}
+#box{
+    border: 2px solid black;   /* Adds a border */
+  padding: 25px;             /* Space inside the box */
+  margin : 20px;              /* Space outside the box */
+  background-color: #f9f9f9; /* Light background */
+  width: 700px;              /* Optional: box width */
+  border-radius: 9px;        /* Rounded corners */
+}
